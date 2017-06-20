@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		960232571EF9A9C00097BD98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960232561EF9A9C00097BD98 /* AppDelegate.swift */; };
-		960232591EF9A9C00097BD98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960232581EF9A9C00097BD98 /* ViewController.swift */; };
+		960232591EF9A9C00097BD98 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960232581EF9A9C00097BD98 /* TextViewController.swift */; };
 		9602325C1EF9A9C00097BD98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9602325A1EF9A9C00097BD98 /* Main.storyboard */; };
 		9602325F1EF9A9C00097BD98 /* Club_Chat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9602325D1EF9A9C00097BD98 /* Club_Chat.xcdatamodeld */; };
 		960232611EF9A9C00097BD98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960232601EF9A9C00097BD98 /* Assets.xcassets */; };
 		960232641EF9A9C00097BD98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960232621EF9A9C00097BD98 /* LaunchScreen.storyboard */; };
+		9602326C1EF9ADCE0097BD98 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9602326B1EF9ADCE0097BD98 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		960232531EF9A9C00097BD98 /* Club Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Club Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		960232561EF9A9C00097BD98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		960232581EF9A9C00097BD98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		960232581EF9A9C00097BD98 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 		9602325B1EF9A9C00097BD98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9602325E1EF9A9C00097BD98 /* Club_Chat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Club_Chat.xcdatamodel; sourceTree = "<group>"; };
 		960232601EF9A9C00097BD98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		960232631EF9A9C00097BD98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		960232651EF9A9C00097BD98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9602326B1EF9ADCE0097BD98 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				960232561EF9A9C00097BD98 /* AppDelegate.swift */,
-				960232581EF9A9C00097BD98 /* ViewController.swift */,
+				960232581EF9A9C00097BD98 /* TextViewController.swift */,
+				9602326B1EF9ADCE0097BD98 /* SettingsViewController.swift */,
 				9602325A1EF9A9C00097BD98 /* Main.storyboard */,
 				960232601EF9A9C00097BD98 /* Assets.xcassets */,
 				960232621EF9A9C00097BD98 /* LaunchScreen.storyboard */,
@@ -141,8 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9602325F1EF9A9C00097BD98 /* Club_Chat.xcdatamodeld in Sources */,
-				960232591EF9A9C00097BD98 /* ViewController.swift in Sources */,
+				960232591EF9A9C00097BD98 /* TextViewController.swift in Sources */,
 				960232571EF9A9C00097BD98 /* AppDelegate.swift in Sources */,
+				9602326C1EF9ADCE0097BD98 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
